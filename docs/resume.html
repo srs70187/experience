@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Resume of Steven Russell Soloway</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet">
+        <style type="text/css">
+            @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+        @charset "utf-8";
+        @-webkit-viewport   { width: device-width; }
+        @-moz-viewport      { width: device-width; }
+        @-ms-viewport       { width: device-width; }
+        @-o-viewport        { width: device-width; }
+        @viewport           { width: device-width; }
+        
+        body{
+          font-family: 'Open Sans', Arial, Tahoma;
+          font-weight: 400;
+          color: #363636;
+          background: #334960;
+        }
+        blockquote {
+          font-size: 1em;
+        }
+        
+        .container{
+          margin-top: 80px;
+          margin-bottom: 15px;
+          background: #fff;
+        }
+        
+        #photo-header{
+          margin-top: -75px;
+        }
+        #photo{
+          width: 160px;
+          height: 160px;
+          border-radius: 50%;
+          overflow: hidden;
+          padding: 5px;
+          background: #334960;
+          display: inline-block;
+        }
+        #photo img{
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+        }
+        #text-header h1{
+          margin: 0;
+          padding: 0;
+          font-size: 1.5em;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: -1px;
+        }
+        #text-header h1::first-line{
+          font-size: 1.5em;
+          font-weight: 800;
+          line-height: 1.5em;
+        }
+        #text-header h1 span{
+          color: #334960;
+          opacity: 0.7;
+        }
+        #text-header h1 sup{
+          opacity: 0.5;
+        }
+        #text-header:after{
+          width: 100%;
+          height: 3px;
+          border-bottom: 1px solid #ddd;
+          margin-top: 15px;
+          content: '';
+          display: block;
+        }
+        
+        .box{
+          padding-bottom: 10px;
+          margin-bottom: 25px;
+        }
+        .box h2{
+          color: #227c74;
+          font-size: 1.5em;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+        
+        #awards,
+        #education{
+          margin-top: 20px;
+          margin-bottom: 0;
+          position: relative;
+          padding: 1em 0;
+          list-style: none;
+        }
+        #awards:before,
+        #education:before {
+          width: 5px;
+          height: 100%;
+          position: absolute;
+          left: 35px;
+          top: 0;
+          content: ' ';
+          display: block;
+          background: #32475c;
+          background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+          background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+          background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+          background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+          background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+        }
+        #awards li,
+        #education li{
+          width: 100%;
+          z-index: 2;
+          position: relative;
+          float: left;
+        }
+        #awards .year,
+        #education .year{
+          width: 14%;
+          background: #fff;
+          padding: 10px;
+          font-weight: 700;
+          display: inline-block;
+        }
+        #awards .description,
+        #education .description{
+          width: 83%;
+          display: inline-block;
+          background: #eee;
+          margin-bottom: 10px;
+          position: relative;
+          padding: 10px;
+          border-bottom: 1px solid #ccc;
+          border-right: 1px solid #ccc;
+        }
+        #awards .description:after,
+        #education .description:after {
+          content: '';
+          position: absolute;
+          top: 15px;
+          right: 0;
+          left: -16px;
+          height: 0;
+          width: 0;
+          border: solid transparent;
+          border-right-color: #eee;
+          border-width: 8px;
+          pointer-events: none;
+        }
+        #awards .description h3,
+        #education .description h3{
+          font-size: 1.2em;
+          margin: 0;
+          padding: 0;
+          font-weight: 700;
+        }
+        #awards .description p,
+        #education .description p{
+          margin-top: 5px;
+          padding: 0;
+        }
+        
+        .job{
+          margin-bottom: 15px;
+        }
+        .job .details {
+          margin-left: 3%;
+          width: 95%;
+          padding: 10px;
+          margin-bottom: 10px;
+          background: #eee;
+          border-bottom: 1px solid #ccc;
+          border-right: 1px solid #ccc;
+        }
+        .job .where{
+          font-size: 1.2em;
+          font-weight: bold;
+        }
+        .job .year{
+          opacity: 0.7;
+        }
+        .job .profession{
+          font-size: 1.2em;
+          font-weight: bold;
+        }
+        .job .description{
+          line-height: 1.5em;
+        }
+        .job .highlights{
+          padding: 5px 0;
+          font-weight: bold;
+        }
+        .job .job-details {
+          padding-left: 5%;
+          width: 100%;
+        }
+        .publication {
+          margin-bottom: 0;
+        }
+        .publication .name{
+          font-size: 1em;
+          font-weight: bold;
+        }
+        .publication .year{
+            opacity: 0.7;
+        }
+        .publication p{
+          margin: 0;
+          padding-top: 10px;
+        }
+        
+        .contact-item{
+          width: 100%;
+          float: left;
+        }
+        .contact-item .icon{
+          padding: 10px;
+          border-right: 1px solid #ccc;
+          border-bottom: 1px solid #ccc;
+          color: #32475c;
+          background: #eee;
+        }
+        .contact-item:last-child .icon{
+          border-bottom: none;
+        }
+        .contact-item .title{
+          width: 80%;
+          width: calc(100% - 55px);
+          font-weight: 700;
+          opacity: 0.9;
+        }
+        .contact-item .title.only{
+          margin-top: 10px;
+        }
+        .contact-item .description{
+          width: 80%;
+          width: calc(100% - 55px);
+          color: #334960;
+        }
+        
+        .item-interests,
+        .item-skills{
+          height: 30px;
+          color: #334960;
+          padding: 5px 10px;
+          margin-bottom: 5px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-size: 1.1em;
+          font-weight: 600;
+        }
+        .interest,
+        .skill{
+          color: #fff;
+          display: inline-block;
+          margin-right: 5px;
+          margin-bottom: 5px;
+          padding: 5px 10px;
+          background: #32475c;
+          position: relative;
+          font-size: .85em;
+        }
+        .skill-level {
+          background-color: #227c74;
+          border-radius: 4px;
+          color: #fff;
+          padding: 1px 8px;
+          font-size: .75em;
+          position: absolute;
+          margin: 1px 10px;
+        }
+        
+        #language-skills .skill{
+          margin: 10px 0;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #eee;
+        }
+        </style>
+        <style type="text/css" media="print">
+            body {
+          font-size: .95em;
+          -webkit-print-color-adjust: exact;
+        }
+        
+        a[href]:after {
+          content: none !important;
+        }
+        
+        #photo{
+          display: none;
+        }
+        
+        .box {
+          margin-bottom: -10px;
+        }
+        
+        blockquote,
+        #education,
+        #awards,
+        .contact-item,
+        .publication,
+        .skills,
+        .interests,
+        .job-details,
+        .job {
+          page-break-inside: avoid;
+        }
+        
+        .col-sm-5{
+          width: 40%;
+          padding: 0 15px;
+        }
+        
+        .col-sm-7{
+          width: 60%;
+          padding: 0 15px;
+        }
+        
+        .skills .col-sm-offset-1,
+        .interests .col-sm-offset-1{
+          margin-top: -10px;
+          margin-bottom: 5px;
+        }
+        
+        #education {
+          margin: 0;
+          margin-bottom: -20px;
+        }
+        #awards:before,
+        #education:before {
+          background: none;
+        }
+        
+        #awards .description,
+        #education .description,
+        .job .details {
+          border: 1px solid #eee;
+        }
+        .publication,
+        .publication .panel-heading,
+        .publication .name{
+          margin: 0;
+          padding: 0 5px;
+          border: none;
+        }
+        .publication .panel-body {
+          padding: 0 10px;
+          margin: 0;
+        }
+        
+        .badge {
+          margin: 0;
+        }
+        
+        .list-group-item{
+          border: none;
+          margin: 0;
+          padding: 5px 15px;
+        }
+        .list-group-item:after{
+          content: '';
+          position: absolute;
+          top: 8px;
+          right: 0;
+          left: -1px;
+          height: 0;
+          width: 0;
+          border: solid transparent;
+          border-right-color: #999;
+          border-width: 4px;
+          pointer-events: none;
+         }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="photo-header" class="text-center">
+                        <!-- PHOTO (AVATAR) -->
+                        <div id="photo">
+                            <img src="pic.png" alt="avatar">
+                        </div>
+                        <div id="text-header">
+                             <h1>Steven Russell Soloway<br><span>Data Scientist &amp; Consultant</span></h1>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-7">
+                    <!-- ABOUT ME -->
+                    <div class="box">
+                         <h2><i class="fa fa-user ico"></i> About</h2>
+
+                        <p>Steven&#39;s experience places him at the intersection of statistical
+                            programming, data engineering, and technical project management. Capable
+                            of end-to-end solutioning, Steve is comfortable playing a hybrid engineering
+                            and project management role, working individually or as part of a larger
+                            (internal or external) team. He has extensive experience designing project
+                            scope, setting and tracking deliverables with project stakeholders, communicating
+                            with company executives, and presenting to both business and engineering
+                            audiences.</p>
+                    </div>
+                    <!-- WORK EXPERIENCE -->
+                    <div class="box">
+                         <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
+
+                        <div class="job clearfix">
+                            <div class="row">
+                                <div class="details">
+                                    <div class="where">Slalom</div>
+                                    <div class="address"> <a href="https:&#x2F;&#x2F;www.slalom.com" target="_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.slalom.com</a>
+
+                                    </div>
+                                    <div class="year">March 2016 – Present</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="job-details col-xs-11">
+                                    <div class="profession">Data Science Consultant</div>
+                                    <div class="description">Directly responsible for fostering business-to-business relationships
+                                        through delivery of data science oriented consulting services. Additional
+                                        roles include participating as an integral member of the team recruiting
+                                        and interviewing Data Scientist candidates, contributing to the development
+                                        of the company&#39;s summer internship program, and mentoring the growing
+                                        team of Data Science consultants.
+                                        <div class="highlights">Highlights</div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">Sales Forecasting: Sourced and lead engagement forecasting product level
+                                                sales for a Learning Science technology company in advance of their IPO.
+                                                Project is sponsored by client Company&#39;s CFO, and its success served
+                                                as a catalyst for long term business relationship between Slalom and the
+                                                Company.</li>
+                                            <li class="list-group-item">Trend Analysis: Leveraged external API&#39;s to integrate trend data into
+                                                an educational publishing company&#39;s Enterprise Data Warehouse, enabling
+                                                the development of analytics leading to data driven decisionmaking around
+                                                advertisement spending, product placement, and supply chain management.</li>
+                                            <li
+                                            class="list-group-item">Clienteling Project: Managed Project for a leading worldwide retail organization
+                                                evaluating the historical return on investment and expected future benefit
+                                                of a digital clienteling implementation. Results of the analysis were used
+                                                as the basis for expanding the clienteling solution into organization&#39;s
+                                                Asia-Pacific business.</li>
+                                                <li class="list-group-item">Contributed to the development of a food recipe recommendation application
+                                                    as part of Slalom&#39;s ML hackathon.</li>
+                                                <li class="list-group-item">Conducted roughly 50 interviews for data science consultant candidates,
+                                                    and engaged as mentor to the most recent (4) hires.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job clearfix">
+                            <div class="row">
+                                <div class="details">
+                                    <div class="where">Melinae</div>
+                                    <div class="address"> <a href="http:&#x2F;&#x2F;www.melinae.com" target="_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;www.melinae.com</a>
+
+                                    </div>
+                                    <div class="year">August 2013 – March 2016</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="job-details col-xs-11">
+                                    <div class="profession">Principal Data Scientist</div>
+                                    <div class="description">
+                                        <div class="highlights">Highlights</div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">Retail Site Selection: Created an automated geographical revenue forecasting
+                                                platform for an international hypermarket chain. The platform has transformed
+                                                into operational analytics services, and remains embedded as a key component
+                                                of the company’s growth pipeline for new stores and potential acquisitions.</li>
+                                            <li
+                                            class="list-group-item">Elasticity Modeling: Designed an algorithm to predict customer-level price
+                                                elasticity for a privately owned toll road. Electronic Transponder data
+                                                used for prediction was in excess of 10 terabytes. Results of the analysis
+                                                were integral in the pricing strategy for the next year.</li>
+                                                <li class="list-group-item">Due Diligence: Used machine learning and external &#39;nontraditional&#39;
+                                                    data sourcing to provide an alternate valuation methodology for potential
+                                                    acquisitions by a private equity company.</li>
+                                                <li class="list-group-item">Managed a team of scientists and developers for nearly all technical client
+                                                    assignments.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job clearfix">
+                            <div class="row">
+                                <div class="details">
+                                    <div class="where">Institute for Policy Integrity</div>
+                                    <div class="address"> <a href="http:&#x2F;&#x2F;www.policyintegrity.org" target="_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;www.policyintegrity.org</a>
+
+                                    </div>
+                                    <div class="year">June 2010 – August 2013</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="job-details col-xs-11">
+                                    <div class="profession">Research Fellow</div>
+                                    <div class="description">Coinvestigated an interdisciplinary (Law, Epidemiology, Economics) grant
+                                        funded research project estimating healthcare cost savings due to a broad-based
+                                        price driven switch from oil to natural gas fired power generation in New
+                                        York City.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- AWARDS -->
+                    <div class="box">
+                         <h2><i class="fa fa-certificate ico"></i> Awards</h2>
+
+                        <ul id="awards" class="clearfix">
+                            <li>
+                                <div class="year pull-left">January 2005</div>
+                                <div class="description pull-right">
+                                     <h3>The Posse Foundation</h3>
+
+                                    <p><i class="fa fa-trophy ico"></i> Posse Scholar</p>
+                                    <p>Full Tuition Scholarship awarded to attend Vanderbilt University as an
+                                        undergraduate</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-5">
+                    <!-- CONTACT -->
+                    <div class="box clearfix">
+                         <h2><i class="fa fa-bullseye ico"></i> Contact</h2>
+
+                        <div class="contact-item">
+                            <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span>
+                            </div>
+                            <div class="title pull-right">44 West 14th Street 2B</div>
+                            <div class="title  pull-right">New York, New York 10011 US</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span>
+                            </div>
+                            <div class="title only pull-right">347-680-4545</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span>
+                            </div>
+                            <div class="title only pull-right"><a href="mailto:steven.r.soloway@gmail.com" target="_blank">steven.r.soloway@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span>
+                            </div>
+                            <div class="title pull-right">LinkedIn</div>
+                            <div class="description pull-right"><a href="https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;stevenrsoloway" target="_blank">stevenrsoloway</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- EDUCATION -->
+                    <div class="box">
+                         <h2><i class="fa fa-university ico"></i> Education</h2>
+
+                        <ul id="education" class="clearfix">
+                            <li>
+                                <div class="year pull-left">2010 2013</div>
+                                <div class="description pull-right">
+                                     <h3>Hunter College</h3>
+
+                                    <p><i class="fa fa-graduation-cap ico"></i> Masters</p>
+                                    <p>Economics</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="year pull-left">2005 2009</div>
+                                <div class="description pull-right">
+                                     <h3>Vanderbilt University</h3>
+
+                                    <p><i class="fa fa-graduation-cap ico"></i> Bachelors</p>
+                                    <p>Economics</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- SKILLS -->
+                    <div class="box">
+                         <h2><i class="fa fa-tasks ico"></i> Skills</h2>
+
+                        <div class="skills clearfix">
+                            <div class="item-skills">Statistical Programming</div>
+                            <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">CRAN ML Libraries</span>
+ <span class="skill badge">scikit-learn</span>
+
+                                <span
+                                class="skill badge">Keras</span> <span class="skill badge">Edward</span>
+ <span class="skill badge">Tensorflow</span>
+
+                                    <span
+                                    class="skill badge">Stan</span>
+                            </div>
+                        </div>
+                        <div class="skills clearfix">
+                            <div class="item-skills">Data Exploration</div>
+                            <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">dplyr + tidyr + purrr</span>
+ <span class="skill badge">Pandas</span>
+
+                                <span
+                                class="skill badge">beautifulsoup</span> <span class="skill badge">Bokeh</span>
+ <span class="skill badge">plotly</span>
+
+                                    <span
+                                    class="skill badge">ggplot2</span>
+                            </div>
+                        </div>
+                        <div class="skills clearfix">
+                            <div class="item-skills">Reproducibility</div>
+                            <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">Cloud VPS</span>
+ <span class="skill badge">Git</span>
+
+                                <span
+                                class="skill badge">Bash Scripting</span> <span class="skill badge">Containerized Development</span>
+
+                                    <span
+                                    class="skill badge">Serverless Deployment</span>
+                            </div>
+                        </div>
+                        <div class="skills clearfix">
+                            <div class="item-skills">Database</div>
+                            <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">Postgres/BigQuery/Redshift</span>
+ <span class="skill badge">Mongo/BigTable/Dynamo</span>
+
+                                <span
+                                class="skill badge">PostGIS</span> <span class="skill badge">Spark</span>
+ <span class="skill badge">Hive</span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PUBLICATIONS -->
+                    <div class="box">
+                         <h2><i class="fa fa-book ico"></i> Publications</h2>
+
+                        <div class="publication panel panel-default">
+                            <div class="panel-heading">
+                                <div class="name panel-title">The Environmental Impacts of Fuel Switching Electricity Generators</div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="publisher"><i class="fa fa-bookmark ico"></i> Volume 37, Number 4: IAEE&#39;s Energy
+                                    Economics Journal</div>
+                                <div class="year">01 September 2016</div>
+                                <div class="address"> <a href="http:&#x2F;&#x2F;dx.doi.org&#x2F;10.5547&#x2F;01956574.37.4.jhol"
+                                    target="_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;dx.doi.org&#x2F;10.5547&#x2F;01956574.37.4.jhol</a>
+
+                                </div>
+                                <p>We examine the environmental and policy impacts of switching from oil-fired
+                                    to natural gas-fired generation in New York City (NYC). We create an hourly
+                                    panel of the fuel use of NYC&#39;s generators and use a semi-parametric
+                                    approach to identify the fuel-price spread that induces the switch from
+                                    oil to gas. We find that NYC&#39;s pollution emissions decrease significantly
+                                    after generators switch to natural gas. Around two-thirds of these emission
+                                    reductions come from reduced emission intensity within plants, while the
+                                    remaining third comes from less intense dispatch of oil fired generators.
+                                    To illustrate the policy impact, we simulate the introduction of a real
+                                    time pricing (RTP) program in NYC. The results suggest that the environmental
+                                    benefits of the RTP decreased by nearly 30% due largely to fuel switching.
+                                    While we focus on RTP, these results can be used to evaluate any energy
+                                    policy that has a heterogeneous impact across time or the demand profile.</p>
+                            </div>
+                        </div>
+                        <div class="publication panel panel-default">
+                            <div class="panel-heading">
+                                <div class="name panel-title">Peak Efficiency</div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="publisher"><i class="fa fa-bookmark ico"></i> Policy Integrity Policy Brief</div>
+                                <div
+                                class="year">01 October 2012</div>
+                            <div class="address"> <a href="http:&#x2F;&#x2F;policyintegrity.org&#x2F;publications&#x2F;detail&#x2F;peak-efficiency"
+                                target="_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;policyintegrity.org&#x2F;publications&#x2F;detail&#x2F;peak-efficiency</a>
+
+                            </div>
+                            <p>This policy brief discusses an on-going inter-disciplinary study to measure
+                                whether laws that reshape local electricity demand can achieve significant
+                                health benefits in New York City.</p>
+                        </div>
+                    </div>
+                    <div class="publication panel panel-default">
+                        <div class="panel-heading">
+                            <div class="name panel-title">Consumer Surplus &amp; Net Neutrality</div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="publisher"><i class="fa fa-bookmark ico"></i> Policy Integrity Policy Brief</div>
+                            <div
+                            class="year">03 October 2011</div>
+                        <div class="address"> <a href="http:&#x2F;&#x2F;policyintegrity.org&#x2F;publications&#x2F;detail&#x2F;internet-benefits1"
+                            target="_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;policyintegrity.org&#x2F;publications&#x2F;detail&#x2F;internet-benefits1</a>
+
+                        </div>
+                        <p>This policy brief describes how a weakening of the principle of network
+                            neutrality might impact the Web. Based on an analysis of Internet usage,
+                            it finds that Internet infrastructure and content work together to generate
+                            huge economic benefits for consumers—possibly as much as $5,686 per user,
+                            per year.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </body>
+
+</html>
