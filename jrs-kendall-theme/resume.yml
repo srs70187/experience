@@ -21,18 +21,18 @@ work:
     company: Slalom
     position: 'Data Science Consultant'
     website: 'https://www.slalom.com'
-    startDate: 'May 2016'
-    summary: 'Directly responsible for fostering business-to-business relationships through delivery of data science oriented consulting services. Additional roles include participating as an integral member of the team recruiting and interviewing Data Scientist candidates, contributing to the development of the company''s summer internship program, and mentoring the growing team of Data Science consultants'
+    startDate: 2016-03
+    summary: 'Directly responsible for fostering business-to-business relationships through delivery of data science oriented consulting services. Additional roles include participating as an integral member of the team recruiting and interviewing Data Scientist candidates, contributing to the development of the company''s summer internship program, and mentoring the growing team of Data Science consultants.'
     highlights:
       - 'Sales Forecasting: Sourced and lead engagement forecasting product level sales for a Learning Science technology company in advance of their IPO. Project is sponsored by client Company''s CFO, and its success served as a catalyst for long term business relationship between Slalom and the Company.'
       - 'Trend Analysis: Leveraged external API''s to integrate trend data into an educational publishing company''s Enterprise Data Warehouse, enabling the development of analytics leading to data driven decisionmaking around advertisement spending, product placement, and supply chain management.'
       - 'Clienteling Project: Managed Project for a leading worldwide retail organization evaluating the historical return on investment and expected future benefit of a digital clienteling implementation. Results of the analysis were used as the basis for expanding the clienteling solution into organization''s Asia-Pacific business.'
-      - 'Contributed to the development of a food recipe recommendation application as part of Slalom''s ML hackathon'
+      - 'Contributed to the development of a food recipe recommendation application as part of Slalom''s ML hackathon.'
       - 'Conducted roughly 50 interviews for data science consultant candidates, and engaged as mentor to the most recent (4) hires.'
   -
     company: Melinae
     position: 'Principal Data Scientist'
-    website: 'https://www.melinae.com'
+    website: 'http://www.melinae.com'
     startDate: 2013-08
     endDate: 2016-03
     summary: ""
@@ -40,14 +40,14 @@ work:
       - 'Retail Site Selection: Created an automated geographical revenue forecasting platform for an international hypermarket chain. The platform has transformed into operational analytics services, and remains embedded as a key component of the company’s growth pipeline for new stores and potential acquisitions.'
       - 'Elasticity Modeling: Designed an algorithm to predict customer-level price elasticity for a privately owned toll road. Electronic Transponder data used for prediction was in excess of 10 terabytes. Results of the analysis were integral in the pricing strategy for the next year.'
       - 'Due Diligence: Used machine learning and external ''nontraditional'' data sourcing to provide an alternate valuation methodology for potential acquisitions by a private equity company.'
-      - 'Managed a team of scientists and developers for nearly all technical client assignments'
+      - 'Managed a team of scientists and developers for nearly all technical client assignments.'
   -
     company: 'Institute for Policy Integrity'
     position: 'Research Fellow'
     website: 'http://www.policyintegrity.org'
     startDate: 2010-06
     endDate: 2013-08
-    summary: 'Coinvestigated an interdisciplinary (Law, Epidemiology, Economics) grant funded research project estimating healthcare cost savings due to a broad-based price driven switch from oil natural gas fired power generation in New York City.'
+    summary: 'Coinvestigated an interdisciplinary (Law, Epidemiology, Economics) grant funded research project estimating healthcare cost savings due to a broad-based price driven switch from oil to natural gas fired power generation in New York City.'
 awards:
   -
     title: 'Posse Scholar'
@@ -84,7 +84,7 @@ publications:
     name: 'Consumer Surplus & Net Neutrality'
     publisher: 'Policy Integrity Policy Brief'
     releaseDate: '2011-10-03'
-    website: 'http://policyintegrity.org/publications/policy-briefs/P10'
+    website: 'http://policyintegrity.org/publications/detail/internet-benefits1'
     summary: 'This policy brief describes how a weakening of the principle of network neutrality might impact the Web. Based on an analysis of Internet usage, it finds that Internet infrastructure and content work together to generate huge economic benefits for consumers—possibly as much as $5,686 per user, per year.'
 skills:
   -
@@ -116,8 +116,8 @@ skills:
   -
     name: Database
     keywords:
-      - PostgreSQL
+      - Postgres/BigQuery/Redshift
+      - Mongo/BigTable/Dynamo
       - PostGIS
-      - Mongo/BigQuery/Dynamo
       - Spark
       - Hive
