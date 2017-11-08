@@ -9,8 +9,8 @@
     "city": "New York",
     "region": "New York",
     "country": "US",
-    "code": "10011",
-    "address": "44 West 14th Street 2B"
+    "code": "10012",
+    "address": "170 Thompson Street Apt 14"
   },
   "employment": {
     "history": [
@@ -23,6 +23,9 @@
         "url": "https://www.slalom.com",
         "keywords": [],
         "highlights": [
+          "Network Analysis (Ongoing): Engaging as Data Scientist within a cross-functional team of economists and engineers at Microsoft Research. The goal of the project is to build a dynamic understanding Open Source Software (OSS) development via data sourced from GitHub and StackOverflow. I am specifically engaging in building the data pipeline, constructing networks via topic modeling, and eventually building the capability to predict OSS evolution on an 18 month horizon.",
+          "DevOps Strategy: Collected, consolidated, and communicated the business case for a DevOps-centrc solution within a companywide effort to create a Global Data Analytics Platform. Acted as bridge between software/data engineers and the business leaders of a global insurance company.",
+          "Google Cloud Platform Liason: Technical Lead for Slalom's relationship with Google Cloud Platform in the NYC Market.",
           "Sales Forecasting: Sourced and lead engagement forecasting product level sales for a Learning Science technology company in advance of their IPO. Project is sponsored by client Company's CFO, and its success served as a catalyst for long term business relationship between Slalom and the Company.",
           "Trend Analysis: Leveraged external API's to integrate trend data into an educational publishing company's Enterprise Data Warehouse, enabling the development of analytics leading to data driven decisionmaking around advertisement spending, product placement, and supply chain management.",
           "Clienteling Project: Managed Project for a leading worldwide retail organization evaluating the historical return on investment and expected future benefit of a digital clienteling implementation. Results of the analysis were used as the basis for expanding the clienteling solution into organization's Asia-Pacific business.",
@@ -95,30 +98,29 @@
         "skills": [
           "dplyr + tidyr + purrr",
           "Pandas",
-          "beautifulsoup",
+          "scrapy",
           "Bokeh",
           "plotly",
           "ggplot2"
         ]
       },
       {
-        "name": "Reproducibility",
+        "name": "Development/DevOps",
         "skills": [
-          "Cloud VPS",
+          "IaaS: Linux & Bash",
+          "PaaS: CaaS, FaaS",
           "Git",
-          "Bash Scripting",
-          "Containerized Development",
-          "Serverless Deployment"
+          "Docker",
+          "CI/CD"
         ]
       },
       {
         "name": "Database",
         "skills": [
-          "Postgres/BigQuery/Redshift",
-          "Mongo/BigTable/Dynamo",
-          "PostGIS",
-          "Spark",
-          "Hive"
+          "DBaaS",
+          "Relational",
+          "NoSQL",
+          "Spatial"
         ]
       }
     ]

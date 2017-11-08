@@ -1,0 +1,18 @@
+curl -sL https://deb.nodesource.com/setup_4.x |  bash - && \
+apt-get install -yq nodejs build-essential
+
+npm install -g npm
+
+docker run -it -v /c/users/steven.soloway/Documents/github/experience:/home/experience ubuntu
+
+apt-get update && apt-get dist-upgrade -y
+apt-get install curl -y
+curl -sL https://deb.nodesource.com/setup_4.x |  bash - && \
+apt-get install -yq nodejs build-essential
+
+npm install -g npm
+npm install -g hackmyresume
+npm install -g resume-cli
+npm install -g jsonresume-theme-kendall
+
+hackmyresume build resume.json to jrs-kendall-theme/resume.all --theme /usr/lib/node_modules/jsonresume-theme-kendall/
